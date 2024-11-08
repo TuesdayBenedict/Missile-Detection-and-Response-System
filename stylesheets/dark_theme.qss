@@ -1,0 +1,31 @@
+/* Title bar styles */
+QWidget#titleBar {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+QLabel#title {
+    font-size: 14px;
+    color: black;
+}
+
+QPushButton {
+    background-color: #e0e0e0;
+    color: black;
+    border: none;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: #c0c0c0;
+}
+
+QPushButton#closeButton {
+    color: red;
+}
+
+/* Main window background */
+QWidget#mainContent {
+    background-color: white;
+    color: black;
+}
